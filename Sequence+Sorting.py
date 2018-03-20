@@ -85,15 +85,3 @@ for i in range(len(onlyfiles)):
         output.write("\n".join(min_sequences))
         output.close()
     f.close()
-
-
-# In[ ]:
-
-
-# I now have a list of indicies corresponding to the unique sequences
-# I did it this way to avoid generating a large list of sequences in memory
-# I now write the corresponding sequences to an output file 
-min_sequences = []
-for x in good_sequences:
-    min_sequences.append(sequences[x])
-
