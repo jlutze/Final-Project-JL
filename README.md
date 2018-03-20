@@ -21,6 +21,8 @@ I have also added a related code which is an adaptation of a genetic algorithm t
 1.	Ernst, Jason, and Manolis Kellis. "Chromatin-state discovery and genome annotation with ChromHMM." nature protocols 12.12 (2017): 2478.
 2.	http://rohsdb.cmb.usc.edu/GBshape/cgibin/hgTrackUi?db=hg19&g=wgEncodeBroadHmm
  
+ ...........
+ 
 Directions:
 1.	Set your directory to the sequences folder in the GitHub
 2.	Run the .sh file in UNIX to isolate N19NGG sequences from each file in the sequences folder. Input and output files are the same for this script.
